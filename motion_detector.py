@@ -6,7 +6,8 @@ first_frame = None
 # status_list = [None,None] # calc time
 # time = [] # calc time
 # df = pandas.DataFrame(columns=["start","end"]) # calc time
-video =cv2.VideoCapture("C:\\Users\\rbsathish\Desktop\\THE GODFATHER Theme   CELLO COVER.mp4")
+# video =cv2.VideoCapture("C:\\Users\\rbsathish\Desktop\\THE GODFATHER Theme   CELLO COVER.mp4")
+video = cv2.VideoCapture(0)
 
 while True:
     check,frame = video.read()
